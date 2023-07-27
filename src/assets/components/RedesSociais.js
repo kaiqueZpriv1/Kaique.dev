@@ -16,7 +16,7 @@ function RedesSociais() {
 	return (
 		<div className='rede-social'>
 			<button>
-				<a href={linkSociais.instagram} target='_blank' rel='noreferrer'>
+				<a href={linkSociais.whatsApp} target='_blank' rel='noreferrer'>
 					<AiOutlineWhatsApp size={35} color='#075E54' />
 				</a>
 			</button>

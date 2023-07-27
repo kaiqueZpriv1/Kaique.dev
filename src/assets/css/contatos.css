@@ -1,0 +1,15 @@
+.contatos_footer {
+    text-align: center;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contatos_footer h3 {
+    color: #b53147;
+    font-size: 12vw;
+    margin: 50px 0 0 0;
+}

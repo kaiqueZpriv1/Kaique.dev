@@ -1,5 +1,5 @@
 /** @format */
-
+import "../css/redesSociais.css";
 import {
 	AiOutlineWhatsApp,
 	AiOutlineInstagram,
@@ -27,7 +27,7 @@ function RedesSociais() {
 			</button>
 			<button>
 				<a href={linkSociais.email} target='_blank' rel='noreferrer'>
-					<AiOutlineMail size={35} color='#333' />
+					<AiOutlineMail size={35} color='#999' />
 				</a>
 			</button>
 		</div>

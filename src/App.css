@@ -1,15 +1,104 @@
+/* primairia #282728 */
+/* secundaria #b53147 */
+/* terceira #e2c5a7 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.menu-mobile {
+body {
+  background-color: #282728;
+}
+
+main {
+  margin: 130px 0 150px 0;
+  text-align: center;
+}
+
+.container-main {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  transition: 0.5s;
-  backdrop-filter: blur(6px);
-  overflow: hidden;
-  z-index: 9;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.container-main h3 {
+  font-size: 10vw;
+  color: #999;
+}
+
+.container-main h1 {
+  font-size: 12vw;
+  color: #b53147;
+}
+
+.container-main p {
+  font-size: 6vw;
+  color: #666;
+}
+
+.container-link {
+  display: flex;
+  margin: 50px 0;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-link button {
+  padding: 5px 10px;
+  background-color: #5a5a5a;
+  border-radius: 5px;
+  border: none;
+}
+
+.link-main {
+  color: #000;
+  text-decoration: none;
+  font-size: 7vw;
+}
+
+.sobreMim {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.foto img {
+  border-radius: 100%;
+  box-shadow: 0 0 20px #b53147;
+  width: 180px;
+}
+
+.text-sobre {
+  text-align: center;
+  margin: 0 5px;
+  line-height: 35px;
+}
+
+.text-sobre h3 {
+  font-size: 9vw;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.text-sobre p {
+  font-size: 7vw;
+  color: #999;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.text-footer {
+  text-align: center;
+  font-size: 6vw;
+  color: #666;
+}
+
+.text-footer a {
+  color: #b53147;
 }

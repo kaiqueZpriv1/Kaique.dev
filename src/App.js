@@ -4,6 +4,9 @@ import "./App.css";
 import HeaderComponents from "./assets/components/HeaderComponents";
 import HabilidadesComponents from "./assets/components/HabilidadesComponents";
 import VideoComponents from "./assets/components/VideoComponents";
+import ContatosComponents from "./assets/components/ContatosComponents";
+import { AiFillCopyrightCircle } from "react-icons/ai";
+import ArrowDownComponents from "./assets/components/ArrowDownComponents";
 function App() {
 	const links = {
 		linkedin: "www.linkedin.com/in/kaique-ferreira-k14",
@@ -12,7 +15,7 @@ function App() {
 	return (
 		<div className='App'>
 			<HeaderComponents />
-			<main>
+			<main id='home'>
 				<div className='container-main'>
 					<h3>Olá, eu sou</h3>
 					<h1>Kaique Ferreira</h1>
@@ -20,18 +23,27 @@ function App() {
 				</div>
 				<div className='container-link'>
 					<button>
-						<a href={links.github} target='_blank' rel='noreferrer'>
-							Link para o GitHub
+						<a
+							href={links.github}
+							className='link-main'
+							target='_blank'
+							rel='noreferrer'>
+							GitHub
 						</a>
 					</button>
 					<button>
-						<a href={links.linkedin} target='_blank' rel='noreferrer'>
+						<a
+							href={links.linkedin}
+							className='link-main'
+							target='_blank'
+							rel='noreferrer'>
 							Linkedin
 						</a>
 					</button>
 				</div>
+				<ArrowDownComponents />
 			</main>
-			<div className='sobreMim'>
+			<div className='sobreMim' id='sobreMim'>
 				<div className='foto'>
 					<img src='https://via.placeholder.com/150' alt='minha foto' />
 				</div>
@@ -50,6 +62,17 @@ function App() {
 			</div>
 			<HabilidadesComponents />
 			<VideoComponents />
+			<ContatosComponents />
+			<footer>
+				<h3 className='text-footer'>
+					2023
+					<AiFillCopyrightCircle size={25} />
+					<a href={links.github} target='_blank' rel='noreferrer'>
+						@KaiqueZpriv1
+					</a>
+					All Right Reservad
+				</h3>
+			</footer>
 		</div>
 	);
 }

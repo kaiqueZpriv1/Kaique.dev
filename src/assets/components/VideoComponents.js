@@ -1,10 +1,11 @@
 /** @format */
 
+import DetailsComponents from "./DetailsComponents";
 import explore from "../video/exploreLab.mkv";
 import personal from "../video/PersonalTrainer.mkv";
 import calculadora from "../video/calculadora.mkv";
 import phCakes from "../video/phCakes.mkv";
-
+import "../css/video.css";
 const portfolioMidia = [
 	{
 		id: 0,
@@ -31,15 +32,16 @@ const portfolioMidia = [
 		url: "https://kaiquezpriv1.github.io/phCakes/",
 	},
 ];
-
 function VideoComponents() {
 	return (
 		<div className='midia-portfolio'>
+			<h3 className='titlePortfolio'>Portfolio</h3>
+			<DetailsComponents />
 			{portfolioMidia.map((portfolio) => (
-				<div className='box-portfolio' key={portfolio.id}>
+				<div className='box-portfolio' id='portfolio' key={portfolio.id}>
 					<video
-						width='90%'
-						height='260'
+						width='95%'
+						height='240'
 						controls='controls'
 						loop='loop'
 						muted='muted'

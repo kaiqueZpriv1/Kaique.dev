@@ -1,0 +1,36 @@
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.burger {
+    width: 65%;
+    transition: 1s;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9;
+}
+
+.menu-mobile {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 9;
+    gap: 35px;
+}
+
+.container_atalhos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container_atalhos a {
+    margin: 0 0 0 15px;
+    font-size: 8vw;
+
+}

@@ -1,0 +1,7 @@
+.down {
+    color: rgb(181, 49, 71);
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 1);
+    border: none;
+    padding: 5px;
+}

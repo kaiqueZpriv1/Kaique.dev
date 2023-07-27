@@ -1,0 +1,9 @@
+.details {
+    margin: 5px 0;
+}
+
+.line {
+    text-align: center;
+    border: 2px solid rgba(169, 169, 169, 0.5);
+    width: 300px;
+}

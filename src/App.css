@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transition: 0.5s;
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  z-index: 9;
+}

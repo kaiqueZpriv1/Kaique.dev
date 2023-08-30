@@ -15,13 +15,14 @@
 }
 
 .linguagem-item h3 {
-    font-size: 8vw;
+    font-size: 9vw;
     margin: 5px 0;
     color: #fafafa;
 }
 
 .linguagem-item p {
     font-size: 6vw;
+    margin: 0 10px;
     color: #b1b1b1;
 }
 

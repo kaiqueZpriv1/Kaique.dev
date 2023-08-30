@@ -67,8 +67,10 @@ main {
 
 .foto img {
   border-radius: 100%;
+  background-color: #b53147;
   box-shadow: 0 0 20px #b53147;
-  width: 180px;
+  width: 170px;
+  height: 180px;
 }
 
 .text-sobre {
@@ -84,7 +86,7 @@ main {
 }
 
 .text-sobre p {
-  font-size: 7vw;
+  font-size: 6vw;
   color: #999;
 }
 

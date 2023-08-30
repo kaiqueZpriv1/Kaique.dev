@@ -20,12 +20,6 @@ const portfolioMidia = [
 		url: "https://kaiquezpriv1.github.io/calculadora/",
 	},
 	{
-		id: 2,
-		video: explore,
-		title: "Explore Lab",
-		url: "https://explore-lab-azure.vercel.app/",
-	},
-	{
 		id: 3,
 		midia: phCakes,
 		title: "Ph Cakes",

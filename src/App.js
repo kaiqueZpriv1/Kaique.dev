@@ -7,6 +7,7 @@ import VideoComponents from "./assets/components/VideoComponents";
 import ContatosComponents from "./assets/components/ContatosComponents";
 import { AiFillCopyrightCircle } from "react-icons/ai";
 import ArrowDownComponents from "./assets/components/ArrowDownComponents";
+import imagePessoal from "./assets/image/foto-pessoal.png";
 function App() {
 	const links = {
 		linkedin: "www.linkedin.com/in/kaique-ferreira-k14",
@@ -45,7 +46,7 @@ function App() {
 			</main>
 			<div className='sobreMim' id='sobreMim'>
 				<div className='foto'>
-					<img src='https://via.placeholder.com/150' alt='minha foto' />
+					<img src={imagePessoal} alt='minha foto' />
 				</div>
 				<div className='text-sobre'>
 					<h3>Kaique Ferreira</h3>

@@ -11,7 +11,9 @@ function RedesSociais() {
 		whatsApp:
 			"https://api.whatsapp.com/send/?phone=11933323486&text&type=phone_number&app_absent=0",
 		instagram: "https://instagram.com/kaique_developer?igshid=YmMyMTA2M2Y=",
-		email: "https://is.gd/kaique_email",
+
+		email:
+			"mailto:kakamelo141205@gmail.com?Subject=Or%E7amento&Body=Ola%2C%20gostaria%20de%20fazer%20um%20or%E7amento%20%21",
 	};
 	return (
 		<div className='rede-social'>

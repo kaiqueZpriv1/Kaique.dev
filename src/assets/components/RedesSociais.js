@@ -9,7 +9,7 @@ import {
 function RedesSociais() {
 	const linkSociais = {
 		whatsApp:
-			"https://api.whatsapp.com/send/?phone=11933323486&text&type=phone_number&app_absent=0",
+			"https://api.whatsapp.com/send/?phone=111933323486&text&type=phone_number&app_absent=0",
 		instagram: "https://instagram.com/kaique_developer?igshid=YmMyMTA2M2Y=",
 
 		email:
